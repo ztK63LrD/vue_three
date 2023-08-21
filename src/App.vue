@@ -22,7 +22,11 @@
   <!-- 3D图片效果 -->
   <!-- <Image3DEffect></Image3DEffect> -->
   <!-- 导弹飞行 -->
-  <MissileFlight></MissileFlight>
+  <!-- <MissileFlight></MissileFlight> -->
+  <!-- 3D汽车展厅 -->
+  <!-- <CarShowroom></CarShowroom> -->
+  <!-- 3D故事小游戏 -->
+  <ThreeDStory></ThreeDStory>
 </template>
 
 <script setup>
@@ -37,7 +41,9 @@
 // import Coolfonts from './components/Coolfonts.vue';
 // import kickballGame from './components/kickballGame.vue';
 // import Image3DEffect from './components/Image3DEffect.vue';
-import MissileFlight from './components/MissileFlight.vue';
+// import MissileFlight from './components/MissileFlight.vue';
+// import CarShowroom from './components/CarShowroom.vue';
+import ThreeDStory from './components/3DStory.vue'
 </script>
 
 <style lang="less">
@@ -45,9 +51,9 @@ import MissileFlight from './components/MissileFlight.vue';
     margin: 0;
     padding: 0;
   }
-  .container{
-    height: 100vh;
-    width: 100vw;
-    background-color: #f0f0f0;
-  }
+  // .container{
+  //   height: 100vh;
+  //   width: 100vw;
+  //   background-color: #f0f0f0;
+  // }
 </style>
